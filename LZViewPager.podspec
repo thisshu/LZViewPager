@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   A powerful paging view with tab bar, just like ViewPager+Tablayout in Android.
                    DESC
 
-  s.homepage     = "https://github.com/ladmini/LZViewPager"
+  s.homepage     = "https://github.com/thisshu/LZViewPager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "ladmini" => "ladmini@126.com" }
-  # Or just: s.author    = "ladmini"
-  # s.authors            = { "ladmini" => "ladmini@126.com" }
-  # s.social_media_url   = "http://twitter.com/ladmini"
+  s.author             = { "thisshu" => "s.wai@trinitywizards.com" }
+  # Or just: s.author    = "thisshu"
+  # s.authors            = { "thisshu" => "thisshu@126.com" }
+  # s.social_media_url   = "http://twitter.com/thisshu"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ladmini/LZViewPager.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/thisshu/LZViewPager.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
