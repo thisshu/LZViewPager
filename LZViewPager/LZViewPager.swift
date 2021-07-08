@@ -196,4 +196,8 @@ public class LZViewPager : UIView {
         headerView.selectPage(at: index, animated: animated)
     }
     
+    public func setHeaderCornerRadius(maskedCorners: CACornerMask, radius: CGFloat) {
+        self.headerView.layer.maskedCorners = maskedCorners
+        self.headerView.layer.cornerRadius = radius
+    }
 }
